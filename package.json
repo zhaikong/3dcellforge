@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:api": "node server.mjs",
+    "dev": "node api.js && vite",
+    "dev:api": "node api.js && node server.mjs",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
