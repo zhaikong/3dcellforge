@@ -12,15 +12,12 @@ dist
 dist-ssr
 .generated-models
 *.local
-.env
-.env.*
 !.env.example
 
 # Local verification screenshots
 bio-demo-*.png
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -29,3 +26,4 @@ bio-demo-*.png
 *.njsproj
 *.sln
 *.sw?
+config.bat
